@@ -1,6 +1,6 @@
 # A-try
 A try for Opencv
-# OpenCV 图像处理工具箱  
+# OpenCV 图像处理 
 颜色切割 · 最小外接矩形 · 多边形拟合
 
 🚀 核心功能
