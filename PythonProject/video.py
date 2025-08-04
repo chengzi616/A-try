@@ -17,10 +17,10 @@ while True:
         break
 
 #颜色分割
-    # 4. 转换为HSV颜色空间（便于颜色分割）
+    # 转换为HSV颜色空间（便于颜色分割）
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
-    # 5. 颜色分割：提取红色区域（合并两个区间）
+    # 颜色分割：提取红色(棒棒糖）区域（合并两个区间）
     mask1 = cv2.inRange(hsv, lower_red1, upper_red1)
     mask2 = cv2.inRange(hsv, lower_red2, upper_red2)
     mask = cv2.bitwise_or(mask1, mask2)
